@@ -16,3 +16,8 @@ Design patterns are classified into 3 different types
 - **Behavioral design patterns** - These patterns are concerned with the communication between objects.
 
 The complete list of design patterns is very long and I will not be learning them all. This repo will contain examples and explanations of the design patterns that I have either used before or am learning for use.
+
+| Pattern  | Type| Code Example |
+| ----------- | ----------- | ----------- |
+| Factory Method | Creational | [Factory Method](/FactoryMethod/FactoryMethod) |
+
