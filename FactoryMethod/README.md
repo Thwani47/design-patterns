@@ -10,7 +10,7 @@ The client code does not see a difference between the different products returne
 Assume you are creating a game that can be played on multiple platforms, and each platform needs a specific scene. In the base class, `SceneCreator`, you can define a `createScene` method, which returns a scene of type `IScene`. You can have multiple subclasses of the base class, such as `MobileSceneCreator` and `DesktopSceneCreator`. The subclasses need to implement the `createScene` method and instantiate the appropriate scene.
 
 ## Structure - UML Class Diagram
-![factor-method-class-diagram](../assets/factory-method.png)
+![factory-method-class-diagram](../assets/factory-method.png)
 
 ## Example UML Class Diagram
 ![factory-method-example-class-diagram](../assets/factory-method-example-class-diagram.png)
