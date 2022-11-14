@@ -5,7 +5,7 @@ The Abstract Factory pattern is a creational design pattern that lets you produc
 The Abstract Factory pattern suggests that we 
 1. Firstly, declare the interfaces for each distinct product. Then for each variant of a product, you can make it implement the interface for that specific product. 
 2. Secondly, declare the Abstract Factory, an interface with a list of creation methods for all **products**. These methods must return **abstract** product types (the interfaces we declared above)
-3. Create a separate **factory** for each variant of the product that implements the **abstract factory** created above. A **factory** is a class that returns products of a particular kind
+3. Create a separate **factory** for each variant of the product that implements the **abstract factory** created above. A **factory** is a class that returns products of a particular kind.
 
 ## Example
 Assume you own a furniture store and in your store you produce `chairs`, `tables`, and `sofas`. For each product that you produce, you can either produce it in a `Modern`, `Victorian`, or `ArtDeco` variant. 
